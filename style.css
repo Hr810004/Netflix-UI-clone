@@ -115,17 +115,36 @@ nav .buttons {
     opacity: 0.4;
     border: 1px solid grey;
     border-radius: 3px;
-    padding: 1.5rem 1rem 0.5rem;
 }
 
-.email::placeholder {
-    font-size: 5px;
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn>input{
+    border: 1px solid white;
+    width: 350px;
+    padding: 15px 24px;
+    font-size: 14px;
+    border-radius: 3px;
     color: white;
 }
 
-.started {}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 3px;
+    padding: 7px 20px ;
+    border: none;
+}
 
 .line {
     height: 8px;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(42, 42, 42);
 }
