@@ -1,4 +1,4 @@
-# Netflix Clone
+# Netflix-UI Clone
 
 This is a simple Netflix clone built using HTML and CSS. The purpose of this project is to practice front-end development skills, specifically focusing on HTML structure and CSS styling.
 
